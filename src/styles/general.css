@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.cast-item > span::after {
+    content: ", ";
+}
+.cast-item > span:last-child::after {
+    content: "";
+}
